@@ -10,9 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  @IBOutlet weak var stepper: UIStepper!
+  
+  @IBAction func stepperChanged(sender: AnyObject) {
+    println(Int(stepper.value))
+  }
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    
+    if (false) {
+      var a = 2
+    } else if (2==2) {
+      println("whut")
+    }
+    
+
   }
 
   override func didReceiveMemoryWarning() {

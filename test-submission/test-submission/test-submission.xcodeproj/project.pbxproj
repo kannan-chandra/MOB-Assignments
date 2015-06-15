@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A26493C41B25673600E7200F /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26493C31B25673600E7200F /* MyViewController.swift */; };
+		A26493C71B256DAA00E7200F /* flamingo.png in Resources */ = {isa = PBXBuildFile; fileRef = A26493C61B256DAA00E7200F /* flamingo.png */; };
 		A2DA2AF21B1F3C19005EB61A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2AF11B1F3C19005EB61A /* AppDelegate.swift */; };
 		A2DA2AF41B1F3C19005EB61A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DA2AF31B1F3C19005EB61A /* ViewController.swift */; };
 		A2DA2AF71B1F3C19005EB61A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DA2AF51B1F3C19005EB61A /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A26493C31B25673600E7200F /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		A26493C61B256DAA00E7200F /* flamingo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flamingo.png; sourceTree = "<group>"; };
 		A2DA2AEC1B1F3C19005EB61A /* test-submission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-submission.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DA2AF01B1F3C19005EB61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2DA2AF11B1F3C19005EB61A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A26493C51B256D9600E7200F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A26493C61B256DAA00E7200F /* flamingo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		A2DA2AE31B1F3C19005EB61A = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +89,14 @@
 		A2DA2AEE1B1F3C19005EB61A /* test-submission */ = {
 			isa = PBXGroup;
 			children = (
+				A26493C51B256D9600E7200F /* Images */,
 				A2DA2AF11B1F3C19005EB61A /* AppDelegate.swift */,
 				A2DA2AF31B1F3C19005EB61A /* ViewController.swift */,
 				A2DA2AF51B1F3C19005EB61A /* Main.storyboard */,
 				A2DA2AF81B1F3C19005EB61A /* Images.xcassets */,
 				A2DA2AFA1B1F3C19005EB61A /* LaunchScreen.xib */,
 				A2DA2AEF1B1F3C19005EB61A /* Supporting Files */,
+				A26493C31B25673600E7200F /* MyViewController.swift */,
 			);
 			path = "test-submission";
 			sourceTree = "<group>";
@@ -192,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A26493C71B256DAA00E7200F /* flamingo.png in Resources */,
 				A2DA2AF71B1F3C19005EB61A /* Main.storyboard in Resources */,
 				A2DA2AFC1B1F3C19005EB61A /* LaunchScreen.xib in Resources */,
 				A2DA2AF91B1F3C19005EB61A /* Images.xcassets in Resources */,
@@ -213,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DA2AF41B1F3C19005EB61A /* ViewController.swift in Sources */,
+				A26493C41B25673600E7200F /* MyViewController.swift in Sources */,
 				A2DA2AF21B1F3C19005EB61A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +425,7 @@
 				A2DA2B0D1B1F3C19005EB61A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2DA2B0E1B1F3C19005EB61A /* Build configuration list for PBXNativeTarget "test-submissionTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				A2DA2B101B1F3C19005EB61A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

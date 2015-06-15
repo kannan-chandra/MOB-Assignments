@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6424D1A9-8D36-4F9C-BBBC-6758D163482C</string>
+	<string>68C8E25D-BFD4-411D-B8D6-F864C60C7C57</string>
 	<key>IDESourceControlProjectName</key>
-	<string>test-submission</string>
+	<string>Homework1</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>4490D7466F50B3978398067EE9A35348BA03D79A</key>
 		<string>https://github.com/kannan-chandra/MOB-Assignments.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test-submission/test-submission/test-submission.xcodeproj</string>
+	<string>Homework1/Homework1.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4490D7466F50B3978398067EE9A35348BA03D79A</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/kannan-chandra/MOB-Assignments.git</string>
